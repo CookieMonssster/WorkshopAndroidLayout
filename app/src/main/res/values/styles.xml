@@ -8,4 +8,12 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="buttonStyles" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:background">@drawable/button_background</item>
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
 </resources>

@@ -1,4 +1,15 @@
 <resources>
     <string name="app_name">WorkshopApplication</string>
     <string name="welcome_in_app">Hello in TT Workshop App!</string>
+    <string name="intents">Intents</string>
+    <string name="fragments">Fragments</string>
+    <string name="recycler_view">Recycler View</string>
+    <string name="send_message">Send Message</string>
+    <string name="person">Person</string>
+    <string name="message">message</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="usage_message_pattern">Use message pattern</string>
+    <string name="subject">Subject</string>
+    <string name="send_mail_with">Send Main with:</string>
 </resources>

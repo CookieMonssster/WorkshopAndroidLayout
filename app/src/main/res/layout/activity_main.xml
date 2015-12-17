@@ -4,6 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@drawable/bluewallpaper"
     tools:context="com.tomtom.workshop.workshopapplication.MainActivity">
 
     <TextView
@@ -13,34 +14,41 @@
         android:text="@string/welcome_in_app"
         android:layout_gravity="center"
         android:textStyle="bold"
-        android:textColor="@android:color/black"
+        android:textColor="@android:color/white"
         android:textSize="23sp"/>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:weightSum="12"
-        android:layout_marginBottom="100dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="250dp"
         android:orientation="horizontal">
 
         <Button
+            android:id="@+id/intents_button"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:text="Intents"
+            android:text="@string/intents"
+            style="@style/buttonStyles"
             android:layout_weight="4"
             />
 
         <Button
+            android:id="@+id/fragments_buttons"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:text="Fragments"
+            android:text="@string/fragments"
+            style="@style/buttonStyles"
             android:layout_weight="4"
             />
 
         <Button
+            android:id="@+id/recycler_view_buttons"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:text="Recycler View"
+            android:text="@string/recycler_view"
+            style="@style/buttonStyles"
             android:layout_weight="4"
             />
     </LinearLayout>
