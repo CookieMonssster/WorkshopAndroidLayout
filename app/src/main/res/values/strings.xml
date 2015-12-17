@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">WorkshopApplication</string>
+    <string name="welcome_in_app">Hello in TT Workshop App!</string>
+</resources>
