@@ -39,7 +39,6 @@ public class MainActivity extends AppCompatActivity {
         intentsButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(getApplicationContext(), "Intents", Toast.LENGTH_SHORT).show();
                 showAlertDialog();
             }
         });
@@ -69,7 +68,7 @@ public class MainActivity extends AppCompatActivity {
                         position = which;
                     }
                 })
-                .setPositiveButton("ok", new DialogInterface.OnClickListener() {
+                .setPositiveButton(getString(R.string.ok), new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
                         Intent intent = new Intent(getApplicationContext(), IntentActivity.class);
@@ -79,7 +78,7 @@ public class MainActivity extends AppCompatActivity {
                         startActivity(intent);
                     }
                 })
-                .setNegativeButton("cancel", new DialogInterface.OnClickListener() {
+                .setNegativeButton(getString(R.string.cancel), new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
                         dialog.cancel();
