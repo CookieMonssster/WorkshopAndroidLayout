@@ -14,7 +14,6 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import android.widget.ImageView;
-import android.widget.Toast;
 
 public class GalleryActivity extends AppCompatActivity {
 
@@ -49,6 +48,7 @@ public class GalleryActivity extends AppCompatActivity {
         image3 = (ImageView) findViewById(R.id.small_image_3);
         image4 = (ImageView) findViewById(R.id.small_image_4);
         image5 = (ImageView) findViewById(R.id.small_image_5);
+
 
         image1.setOnClickListener(new View.OnClickListener() {
             @Override

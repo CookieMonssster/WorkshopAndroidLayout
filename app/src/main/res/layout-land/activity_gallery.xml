@@ -17,9 +17,8 @@
 
     <ScrollView
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true">
-    <LinearLayout
+        android:layout_height="wrap_content">
+    <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical" >
@@ -37,6 +36,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:layout_marginBottom="10dp"
+            android:layout_below="@+id/small_image_1"
             android:src="@drawable/bmw2small"/>
         <ImageView
             android:id="@+id/small_image_3"
@@ -44,6 +44,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:layout_marginBottom="10dp"
+            android:layout_below="@+id/small_image_2"
             android:src="@drawable/bmw3small"/>
         <ImageView
             android:id="@+id/small_image_4"
@@ -51,6 +52,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:layout_marginBottom="10dp"
+            android:layout_below="@+id/small_image_3"
             android:src="@drawable/bmw4small"/>
         <ImageView
             android:id="@+id/small_image_5"
@@ -58,7 +60,8 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:layout_marginBottom="10dp"
+            android:layout_below="@+id/small_image_4"
             android:src="@drawable/bmw5small"/>
-    </LinearLayout>
+    </RelativeLayout>
     </ScrollView>
 </RelativeLayout>
