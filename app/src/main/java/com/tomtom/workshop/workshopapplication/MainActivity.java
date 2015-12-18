@@ -46,7 +46,7 @@ public class MainActivity extends AppCompatActivity {
         fragmentsButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                goToGallery();
             }
         });
 
@@ -56,6 +56,11 @@ public class MainActivity extends AppCompatActivity {
 
             }
         });
+    }
+
+    private void goToGallery() {
+        Intent intent = new Intent(getApplicationContext(), GalleryActivity.class);
+        startActivity(intent);
     }
 
     private void showAlertDialog(){
