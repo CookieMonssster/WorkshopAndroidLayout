@@ -53,9 +53,14 @@ public class MainActivity extends AppCompatActivity {
         recyclerViewButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                showRecyclerViewActivity();
             }
         });
+    }
+
+    private void showRecyclerViewActivity() {
+        Intent intent = new Intent(getApplicationContext(), RecyclerViewActivity.class);
+        startActivity(intent);
     }
 
     private void goToGallery() {
